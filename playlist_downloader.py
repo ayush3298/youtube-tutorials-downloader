@@ -6,7 +6,7 @@ import os
 from bs4 import BeautifulSoup
 
 
-class audio:
+class Downloader:
     def __init__ (self,url,count):
         
         self.url = url
@@ -93,10 +93,10 @@ if __name__== "__main__":
         for url in urlss:
             
             print('*'*50)
-            audio(url,count)
+            Downloader(url,count)
             count += 1
     else:
-        audio(query,count)
+        Downloader(query,count)
     
         
     

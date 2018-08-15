@@ -1,9 +1,7 @@
 import pafy
 from tqdm import tqdm
 import requests
-from pydub import AudioSegment
 import os
-from bs4 import BeautifulSoup
 
 
 class Downloader:
